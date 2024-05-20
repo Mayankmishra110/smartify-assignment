@@ -31,10 +31,10 @@ This project contains a React component that replicates the functionality and ap
 ## Usage
 
 ### Installation
-
+```bash
 1.Clone the repository:
 
-```bash
+
 git clone <https://github.com/Mayankmishra110/smartify-assignment.git>
 
 2.Navigate to the project directory:
