@@ -35,10 +35,10 @@ This project contains a React component that replicates the functionality and ap
 1.Clone the repository:
 
 
-git clone <https://github.com/Mayankmishra110/smartify-assignment.git>
+git clone https://github.com/Mayankmishra110/smartify-assignment.git
 
 2.Navigate to the project directory:
-cd <project_directory>
+cd smartify-assignment
 
 3. Install the dependencies
 npm install
