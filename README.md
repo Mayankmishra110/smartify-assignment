@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Auto Top-Up Settings Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains a React component that replicates the functionality and appearance of an auto top-up settings interface using Material-UI components and theming. The component is written in TypeScript.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Component Structure:**
 
-### `npm start`
+   - Uses Material-UI's `Slider`, `Switch`, `Button`, and `Typography` components.
+   - Implements a responsive design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. **State Management:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   - Uses React's `useState` to manage the state of the auto top-up toggle and the slider value.
 
-### `npm test`
+3. **Slider and Credits Logic:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Connects the slider to update a display of the associated credits and price.
+   - Ensures the slider snaps to predefined credit values.
 
-### `npm run build`
+4. **Auto Top-Up Functionality:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Displays auto top-up settings when the switch is toggled on, and hides them when off.
+   - Prints the selected credit amount to the console when the "Confirm auto-purchase" button is clicked.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Styling:**
+   - Styles the component using Material-UI's styling solution to match the provided design closely.
+   - Customizes button color to purple.
+   - Makes the component container have curved corners.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.Clone the repository:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone <https://github.com/Mayankmishra110/smartify-assignment.git>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2.Navigate to the project directory:
+cd <project_directory>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Install the dependencies
+npm install
 
-## Learn More
+4. Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and navigate to http://localhost:3000.
+```
